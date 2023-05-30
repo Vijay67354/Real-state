@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeverse - Find your dream house</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <!-- 
+    - custom css link
+  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+    - google font link
+  -->
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+
+        <div class="overlay" data-overlay></div>
+
+        <div class="header-top">
+            <div class="container" style="padding-bottom: 40px;">
+
+                <ul class="header-top-list">
+
+                    <li>
+                        <a href="mailto:info@homeverse.com" class="header-top-link">
+                            <ion-icon name="mail-outline"></ion-icon>
+
+                            <span>info@homeverse.com</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="header-top-link">
+                            <ion-icon name="location-outline"></ion-icon>
+
+                            <address>15/A, Nest Tower, NYC</address>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="wrapper">
+                    <ul class="header-top-social-list">
+
+                        <li>
+                            <a href="#" class="header-top-social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="header-top-social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="header-top-social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="header-top-social-link">
+                                <ion-icon name="logo-pinterest"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <button class="header-top-btn">Add Listing</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+
+                <a href="#" class="logo">
+                    <!-- <img src="./assets/images/logo.png" alt="Homeverse logo"> -->
+                    <img src="./assets/images/service-1.png" style="width: 90px; height: 90px;" />
+                </a>
+
+                <nav class="navbar" data-navbar>
+
+                    <div class="navbar-top">
+
+                        <a href="#" class="logo">
+                            <!-- <img src="./assets/images/logo.png" alt="Vijay"> -->
+                            <img src="./assets/images/service-1.png" />
+                        </a>
+
+                        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+                    </div>
+
+                    <div class="navbar-bottom">
+                        <ul class="navbar-list">
+
+                            <li>
+                                <a href="./index.html" class="navbar-link" data-nav-link>Home</a>
+                            </li>
+
+                            <li>
+                                <a href="./About.html" class="navbar-link" data-nav-link>About</a>
+                            </li>
+
+
+                            <li>
+                                <a href="./Contact.html" class="navbar-link" data-nav-link>Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </nav>
+
+                <div class="header-bottom-actions">
+
+                    <button class="header-bottom-actions-btn" aria-label="Search">
+            <ion-icon name="search-outline" style="color: rgb(0, 0, 0);"></ion-icon>
+
+            <span style="background-color: rgb(0, 234, 51); color: rgb(0, 0, 0);">Search</span>
+          </button>
+
+                    <button class="header-bottom-actions-btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+
+            <span>Profile</span>
+          </button>
+
+                    <button class="header-bottom-actions-btn" aria-label="Cart">
+            <ion-icon name="cart-outline"></ion-icon>
+
+            <span href="./Contact.html">Contact</span>
+          </button>
+
+                    <button class="header-bottom-actions-btn animate-bounce" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+
+            <span>Menu</span>
+          </button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="hero" id="home">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <p class="hero-subtitle">
+                            <ion-icon name="home"></ion-icon>
+
+                            <span>Real Estate Agency</span>
+                        </p>
+
+                        <h2 class="h1 hero-title">Find Your Dream House By Us</h2>
+
+                        <p class="hero-text">
+                            The ever-evolving world of real estate. As technology continues to advance and societal needs evolve.
+                        </p>
+
+                        <button class="btn">Make An Enquiry</button>
+
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img src="./assets/images/realstatenew.jpg" alt="Modern house model" class="w-100">
+                    </figure>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #ABOUT
+      -->
+
+
+
+
+
+
+
+            <p class="section-subtitle mt-[80px]">About Us</p>
+
+
+            <div class="container mt-[100px]">
+                <div class="gap-[70px]   grid grid-cols-1 lg:grid-cols-2 items-center">
+                    <div class="grid space-y-2">
+
+                        <h2 class="h2 section-title text-black mb-6" style="text-align: initial;">Economics analysis</h2>
+                        <p style="color: var(--cadet);
+                        font-size: var(--fs-5);
+                        line-height: 1.7;">Residential real estate involves the buying and selling of homes, apartments, and condominiums. It caters to individuals and families seeking shelter and a place to call their own. The market fluctuates based on factors like mortgage
+                            rates, population growth, and the overall health of the economy. Investing in real estate can be an attractive option for individuals looking to grow their wealth. Property values have the potential to appreciate over time,
+                            and rental income can provide a steady cash flow.
+                        </p>
+                        <div>
+                            <p3 style="color: var(--cadet);
+                            font-size: var(--fs-5);
+                            line-height: 1.7;"> However, real estate investing also carries risks and requires careful analysis and due diligence. The real estate market is not immune to economic downturns and market fluctuations. During times of recession, property values
+                                can decline, and foreclosure rates may rise. However, the market has shown resilience and has the potential for recovery and growth over the long term.</p3>
+                        </div>
+                    </div>
+                    <div class="grid lg:mt-[20px]">
+                        <img src="./assets/images/realstate.jpg" class="w-full lg:h-[450px] transition duration-300 ease-in-out hover:scale-110" />
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </article>
+    </main>
+
+
+
+
+
+    <div class="container">
+        <div class="gap-[70px]   grid grid-cols-1 lg:grid-cols-2 items-center">
+
+            <div class="grid lg:mt-[20px]">
+                <img src="./assets/images/real.jpg" class="w-full lg:h-[450px]  transition duration-300 ease-in-out hover:scale-110" />
+            </div>
+            <div class="grid space-y-2">
+                <!-- <h1 class="font-bold text-3xl mb-6 text-black" style="text-align: initial;">Buying and selling</h1> -->
+                <h2 class="h2 section-title text-black mb-6" style="text-align: initial;">Buying and selling</h2>
+                <p style='color: var(--cadet);
+                font-size: var(--fs-5);
+                line-height: 1.7;'>Residential real estate involves the buying and selling of homes, apartments, and condominiums. It caters to individuals and families seeking shelter and a place to call their own. The market fluctuates based on factors like mortgage rates,
+                    population growth, and the overall health of the economy. Investing in real estate can be an attractive option for individuals looking to grow their wealth. Property values have the potential to appreciate over time, and rental income
+                    can provide a steady cash flow.
+                </p>
+                <div>
+                    <p3 style='color: var(--cadet);
+                    font-size: var(--fs-5);
+                    line-height: 1.7;'> However, real estate investing also carries risks and requires careful analysis and due diligence. The real estate market is not immune to economic downturns and market fluctuations. During times of recession, property values can decline,
+                        and foreclosure rates may rise. However, the market has shown resilience and has the potential for recovery and growth over the long term.</p3>
+                </div>
+            </div>
+
+            <div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <div class="grid  grid-cols-1 grid-flow-col gap-4">
+            <div class="row-span-3 ...">
+                <img src="./assets/images/property-1.jpg" class="w-full h-[640px]  transition duration-300 ease-in-out hover:scale-110" />
+            </div>
+            <div class="col-span-2 ...">
+                <img src="./assets/images/property-3.jpg" class="w-full h-[310px] transition duration-300 ease-in-out hover:scale-110" />
+            </div>
+            <div class="row-span-2 col-span-2 ...">
+                <img src="./assets/images/property-4.png" class="w-full h-[310px] transition duration-300 ease-in-out hover:scale-110" />
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container mt-[100px]">
+        <!-- <h1 style="text-align: center; font-weight: bolder; font-size: 40px;">Our Client</h1> -->
+        <h2 class="h2 section-title text-black mb-6" style="text-align: center;">Our Client</h2>
+        <p style="text-align: center; font-weight: 500; margin-bottom: 20px;">Get started by choosing from one of our pre-built to showcase your properties</p>
+        <div class="swiper mySwiper mt-[90px]">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./assets/images/pexel.jpg" class="transition duration-300 ease-in-out hover:scale-110" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/pex.jpeg" class="transition duration-300 ease-in-out hover:scale-110" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/imge.jpg" class="transition duration-300 ease-in-out hover:scale-110" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/pexel.jpg" class="transition duration-300 ease-in-out hover:scale-110" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/pex.jpeg" class="transition duration-300 ease-in-out hover:scale-110" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/imge.jpg" class="transition duration-300 ease-in-out hover:scale-110" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/pexel.jpg" class="transition duration-300 ease-in-out hover:scale-110" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/pex.jpeg" class="transition duration-300 ease-in-out hover:scale-110" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/imge.jpg" class="transition duration-300 ease-in-out hover:scale-110" />
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- 
+    max-w-sm w-full sm:w-1/2 lg:w-1/3  -->
+    <!-- max-w-6xl -->
+
+
+
+    <div class="container mx-auto mt-[110px] mb-[100px]">
+
+        <h2 class="h2 section-title text-black mb-6" style="text-align: center;">Properties for Sale</h2>
+        <p class="text-center mb-[50px]">Get started by choosing from one of our pre-built page templates to showcase your properties</p>
+        <div class="grid grid-cols-1 lg:grid-cols-3">
+            <div>
+                <div class=" items-center justify-center ">
+                    <div class="py-6 px-3">
+                        <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+                            <div class="bg-cover bg-center h-56 p-4" style="background-image: url(./assets/images/property-4.png)">
+                                <div class="flex justify-end">
+                                    <svg class="h-6 w-6 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12.76 3.76a6 6 0 0 1 8.48 8.48l-8.53 8.54a1 1 0 0 1-1.42 0l-8.53-8.54a6 6 0 0 1 8.48-8.48l.76.75.76-.75zm7.07 7.07a4 4 0 1 0-5.66-5.66l-1.46 1.47a1 1 0 0 1-1.42 0L9.83 5.17a4 4 0 1 0-5.66 5.66L12 18.66l7.83-7.83z"></path>
+                        </svg>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <p class="uppercase tracking-wide text-sm font-bold text-gray-700">Detached house • 5y old</p>
+                                <p class="text-3xl text-gray-900">$750,000</p>
+                                <p class="text-gray-700">742 Evergreen Terrace</p>
+                            </div>
+                            <div class=" p-4 border-t border-gray-300 text-gray-700">
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M0 16L3 5V1a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4l3 11v5a1 1 0 0 1-1 1v2h-1v-2H2v2H1v-2a1 1 0 0 1-1-1v-5zM19 5h1V1H4v4h1V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1h2V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1zm0 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V6h-2v2a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6H3.76L1.04 16h21.92L20.24 6H19zM1 17v4h22v-4H1zM6 4v4h4V4H6zm8 0v4h4V4h-4z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">3</span> Bedrooms</p>
+                                </div>
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M17.03 21H7.97a4 4 0 0 1-1.3-.22l-1.22 2.44-.9-.44 1.22-2.44a4 4 0 0 1-1.38-1.55L.5 11h7.56a4 4 0 0 1 1.78.42l2.32 1.16a4 4 0 0 0 1.78.42h9.56l-2.9 5.79a4 4 0 0 1-1.37 1.55l1.22 2.44-.9.44-1.22-2.44a4 4 0 0 1-1.3.22zM21 11h2.5a.5.5 0 1 1 0 1h-9.06a4.5 4.5 0 0 1-2-.48l-2.32-1.15A3.5 3.5 0 0 0 8.56 10H.5a.5.5 0 0 1 0-1h8.06c.7 0 1.38.16 2 .48l2.32 1.15a3.5 3.5 0 0 0 1.56.37H20V2a1 1 0 0 0-1.74-.67c.64.97.53 2.29-.32 3.14l-.35.36-3.54-3.54.35-.35a2.5 2.5 0 0 1 3.15-.32A2 2 0 0 1 21 2v9zm-5.48-9.65l2 2a1.5 1.5 0 0 0-2-2zm-10.23 17A3 3 0 0 0 7.97 20h9.06a3 3 0 0 0 2.68-1.66L21.88 14h-7.94a5 5 0 0 1-2.23-.53L9.4 12.32A3 3 0 0 0 8.06 12H2.12l3.17 6.34z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">2</span> Bathrooms</p>
+                                </div>
+                            </div>
+                            <div class="px-4 pt-3 pb-4 border-t border-gray-300 bg-gray-100">
+                                <div class="text-xs uppercase font-bold text-gray-600 tracking-wide">Realtor</div>
+                                <div class="flex items-center pt-2">
+                                    <div class="bg-cover bg-center w-10 h-10 rounded-full mr-3" style="background-image: url(./assets/images/property-1.jpg)">
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-gray-900">Aisha Khatun</p>
+                                        <p class="text-sm text-gray-700">(355) 155-4311</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class=" items-center justify-center ">
+                    <div class="py-6 px-3">
+                        <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+                            <div class="bg-cover bg-center h-56 p-4" style="background-image: url(./assets/images/pexel.jpg)">
+                                <div class="flex justify-end">
+                                    <svg class="h-6 w-6 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12.76 3.76a6 6 0 0 1 8.48 8.48l-8.53 8.54a1 1 0 0 1-1.42 0l-8.53-8.54a6 6 0 0 1 8.48-8.48l.76.75.76-.75zm7.07 7.07a4 4 0 1 0-5.66-5.66l-1.46 1.47a1 1 0 0 1-1.42 0L9.83 5.17a4 4 0 1 0-5.66 5.66L12 18.66l7.83-7.83z"></path>
+                        </svg>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <p class="uppercase tracking-wide text-sm font-bold text-gray-700">Ranchi house • 10y old</p>
+                                <p class="text-3xl text-gray-900">$150,000</p>
+                                <p class="text-gray-700">712 East Cose</p>
+                            </div>
+                            <div class="flex p-4 border-t border-gray-300 text-gray-700">
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M0 16L3 5V1a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4l3 11v5a1 1 0 0 1-1 1v2h-1v-2H2v2H1v-2a1 1 0 0 1-1-1v-5zM19 5h1V1H4v4h1V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1h2V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1zm0 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V6h-2v2a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6H3.76L1.04 16h21.92L20.24 6H19zM1 17v4h22v-4H1zM6 4v4h4V4H6zm8 0v4h4V4h-4z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">4</span> Bedrooms</p>
+                                </div>
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M17.03 21H7.97a4 4 0 0 1-1.3-.22l-1.22 2.44-.9-.44 1.22-2.44a4 4 0 0 1-1.38-1.55L.5 11h7.56a4 4 0 0 1 1.78.42l2.32 1.16a4 4 0 0 0 1.78.42h9.56l-2.9 5.79a4 4 0 0 1-1.37 1.55l1.22 2.44-.9.44-1.22-2.44a4 4 0 0 1-1.3.22zM21 11h2.5a.5.5 0 1 1 0 1h-9.06a4.5 4.5 0 0 1-2-.48l-2.32-1.15A3.5 3.5 0 0 0 8.56 10H.5a.5.5 0 0 1 0-1h8.06c.7 0 1.38.16 2 .48l2.32 1.15a3.5 3.5 0 0 0 1.56.37H20V2a1 1 0 0 0-1.74-.67c.64.97.53 2.29-.32 3.14l-.35.36-3.54-3.54.35-.35a2.5 2.5 0 0 1 3.15-.32A2 2 0 0 1 21 2v9zm-5.48-9.65l2 2a1.5 1.5 0 0 0-2-2zm-10.23 17A3 3 0 0 0 7.97 20h9.06a3 3 0 0 0 2.68-1.66L21.88 14h-7.94a5 5 0 0 1-2.23-.53L9.4 12.32A3 3 0 0 0 8.06 12H2.12l3.17 6.34z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">2</span> Bathrooms</p>
+                                </div>
+                            </div>
+                            <div class="px-4 pt-3 pb-4 border-t border-gray-300 bg-gray-100">
+                                <div class="text-xs uppercase font-bold text-gray-600 tracking-wide">Realtor</div>
+                                <div class="flex items-center pt-2">
+                                    <div class="bg-cover bg-center w-10 h-10 rounded-full mr-3" style="background-image: url(./assets/images/blog-3.jpg)">
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-gray-900">Ms Dhoni</p>
+                                        <p class="text-sm text-gray-700">(255) 955-2321</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class=" items-center justify-center ">
+                    <div class=" py-6 px-3">
+                        <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+                            <div class="bg-cover bg-center h-56 p-4" style="background-image: url(./assets/images/blog-2.jpg)">
+                                <div class="flex justify-end">
+                                    <svg class="h-6 w-6 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12.76 3.76a6 6 0 0 1 8.48 8.48l-8.53 8.54a1 1 0 0 1-1.42 0l-8.53-8.54a6 6 0 0 1 8.48-8.48l.76.75.76-.75zm7.07 7.07a4 4 0 1 0-5.66-5.66l-1.46 1.47a1 1 0 0 1-1.42 0L9.83 5.17a4 4 0 1 0-5.66 5.66L12 18.66l7.83-7.83z"></path>
+                        </svg>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <p class="uppercase tracking-wide text-sm font-bold text-gray-700">Detached house • 5y old</p>
+                                <p class="text-3xl text-gray-900">$750,000</p>
+                                <p class="text-gray-700">742 Evergreen Terrace</p>
+                            </div>
+                            <div class="flex p-4 border-t border-gray-300 text-gray-700">
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M0 16L3 5V1a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4l3 11v5a1 1 0 0 1-1 1v2h-1v-2H2v2H1v-2a1 1 0 0 1-1-1v-5zM19 5h1V1H4v4h1V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1h2V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1zm0 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V6h-2v2a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6H3.76L1.04 16h21.92L20.24 6H19zM1 17v4h22v-4H1zM6 4v4h4V4H6zm8 0v4h4V4h-4z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">3</span> Bedrooms</p>
+                                </div>
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M17.03 21H7.97a4 4 0 0 1-1.3-.22l-1.22 2.44-.9-.44 1.22-2.44a4 4 0 0 1-1.38-1.55L.5 11h7.56a4 4 0 0 1 1.78.42l2.32 1.16a4 4 0 0 0 1.78.42h9.56l-2.9 5.79a4 4 0 0 1-1.37 1.55l1.22 2.44-.9.44-1.22-2.44a4 4 0 0 1-1.3.22zM21 11h2.5a.5.5 0 1 1 0 1h-9.06a4.5 4.5 0 0 1-2-.48l-2.32-1.15A3.5 3.5 0 0 0 8.56 10H.5a.5.5 0 0 1 0-1h8.06c.7 0 1.38.16 2 .48l2.32 1.15a3.5 3.5 0 0 0 1.56.37H20V2a1 1 0 0 0-1.74-.67c.64.97.53 2.29-.32 3.14l-.35.36-3.54-3.54.35-.35a2.5 2.5 0 0 1 3.15-.32A2 2 0 0 1 21 2v9zm-5.48-9.65l2 2a1.5 1.5 0 0 0-2-2zm-10.23 17A3 3 0 0 0 7.97 20h9.06a3 3 0 0 0 2.68-1.66L21.88 14h-7.94a5 5 0 0 1-2.23-.53L9.4 12.32A3 3 0 0 0 8.06 12H2.12l3.17 6.34z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">2</span> Bathrooms</p>
+                                </div>
+                            </div>
+                            <div class="px-4 pt-3 pb-4 border-t border-gray-300 bg-gray-100">
+                                <div class="text-xs uppercase font-bold text-gray-600 tracking-wide">Realtor</div>
+                                <div class="flex items-center pt-2">
+                                    <div class="bg-cover bg-center w-10 h-10 rounded-full mr-3" style="background-image: url(./assets/images/property-3.jpg)">
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-gray-900">Vijay Thakur</p>
+                                        <p class="text-sm text-gray-700">(515) 255-6321</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="container mx-auto mb-[100px]">
+
+
+        <div class="grid grid-cols-1 lg:grid-cols-3">
+            <div>
+                <div class=" items-center justify-center ">
+                    <div class="py-6 px-3">
+                        <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+                            <div class="bg-cover bg-center h-56 p-4" style="background-image: url(https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)">
+                                <div class="flex justify-end">
+                                    <svg class="h-6 w-6 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12.76 3.76a6 6 0 0 1 8.48 8.48l-8.53 8.54a1 1 0 0 1-1.42 0l-8.53-8.54a6 6 0 0 1 8.48-8.48l.76.75.76-.75zm7.07 7.07a4 4 0 1 0-5.66-5.66l-1.46 1.47a1 1 0 0 1-1.42 0L9.83 5.17a4 4 0 1 0-5.66 5.66L12 18.66l7.83-7.83z"></path>
+                        </svg>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <p class="uppercase tracking-wide text-sm font-bold text-gray-700">Sachin house • 6y old</p>
+                                <p class="text-3xl text-gray-900">$250,000</p>
+                                <p class="text-gray-700">242 Evergreen Terrace</p>
+                            </div>
+                            <div class=" p-4 border-t border-gray-300 text-gray-700">
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M0 16L3 5V1a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4l3 11v5a1 1 0 0 1-1 1v2h-1v-2H2v2H1v-2a1 1 0 0 1-1-1v-5zM19 5h1V1H4v4h1V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1h2V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1zm0 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V6h-2v2a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6H3.76L1.04 16h21.92L20.24 6H19zM1 17v4h22v-4H1zM6 4v4h4V4H6zm8 0v4h4V4h-4z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">9</span> Bedrooms</p>
+                                </div>
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M17.03 21H7.97a4 4 0 0 1-1.3-.22l-1.22 2.44-.9-.44 1.22-2.44a4 4 0 0 1-1.38-1.55L.5 11h7.56a4 4 0 0 1 1.78.42l2.32 1.16a4 4 0 0 0 1.78.42h9.56l-2.9 5.79a4 4 0 0 1-1.37 1.55l1.22 2.44-.9.44-1.22-2.44a4 4 0 0 1-1.3.22zM21 11h2.5a.5.5 0 1 1 0 1h-9.06a4.5 4.5 0 0 1-2-.48l-2.32-1.15A3.5 3.5 0 0 0 8.56 10H.5a.5.5 0 0 1 0-1h8.06c.7 0 1.38.16 2 .48l2.32 1.15a3.5 3.5 0 0 0 1.56.37H20V2a1 1 0 0 0-1.74-.67c.64.97.53 2.29-.32 3.14l-.35.36-3.54-3.54.35-.35a2.5 2.5 0 0 1 3.15-.32A2 2 0 0 1 21 2v9zm-5.48-9.65l2 2a1.5 1.5 0 0 0-2-2zm-10.23 17A3 3 0 0 0 7.97 20h9.06a3 3 0 0 0 2.68-1.66L21.88 14h-7.94a5 5 0 0 1-2.23-.53L9.4 12.32A3 3 0 0 0 8.06 12H2.12l3.17 6.34z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">2</span> Bathrooms</p>
+                                </div>
+                            </div>
+                            <div class="px-4 pt-3 pb-4 border-t border-gray-300 bg-gray-100">
+                                <div class="text-xs uppercase font-bold text-gray-600 tracking-wide">Realtor</div>
+                                <div class="flex items-center pt-2">
+                                    <div class="bg-cover bg-center w-10 h-10 rounded-full mr-3" style="background-image: url(./assets/images/imge.jpg)">
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-gray-900">Virat Sharma</p>
+                                        <p class="text-sm text-gray-700">(515) 255-4321</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class=" items-center justify-center ">
+                    <div class="py-6 px-3">
+                        <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+                            <div class="bg-cover bg-center h-56 p-4" style="background-image: url(./assets/images/property-1.jpg)">
+                                <div class="flex justify-end">
+                                    <svg class="h-6 w-6 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12.76 3.76a6 6 0 0 1 8.48 8.48l-8.53 8.54a1 1 0 0 1-1.42 0l-8.53-8.54a6 6 0 0 1 8.48-8.48l.76.75.76-.75zm7.07 7.07a4 4 0 1 0-5.66-5.66l-1.46 1.47a1 1 0 0 1-1.42 0L9.83 5.17a4 4 0 1 0-5.66 5.66L12 18.66l7.83-7.83z"></path>
+                        </svg>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <p class="uppercase tracking-wide text-sm font-bold text-gray-700">Ambani house • 5y old</p>
+                                <p class="text-3xl text-gray-900">$850,000</p>
+                                <p class="text-gray-700">702 Evergreen Terrace</p>
+                            </div>
+                            <div class="flex p-4 border-t border-gray-300 text-gray-700">
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M0 16L3 5V1a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4l3 11v5a1 1 0 0 1-1 1v2h-1v-2H2v2H1v-2a1 1 0 0 1-1-1v-5zM19 5h1V1H4v4h1V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1h2V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1zm0 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V6h-2v2a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6H3.76L1.04 16h21.92L20.24 6H19zM1 17v4h22v-4H1zM6 4v4h4V4H6zm8 0v4h4V4h-4z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">7</span> Bedrooms</p>
+                                </div>
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M17.03 21H7.97a4 4 0 0 1-1.3-.22l-1.22 2.44-.9-.44 1.22-2.44a4 4 0 0 1-1.38-1.55L.5 11h7.56a4 4 0 0 1 1.78.42l2.32 1.16a4 4 0 0 0 1.78.42h9.56l-2.9 5.79a4 4 0 0 1-1.37 1.55l1.22 2.44-.9.44-1.22-2.44a4 4 0 0 1-1.3.22zM21 11h2.5a.5.5 0 1 1 0 1h-9.06a4.5 4.5 0 0 1-2-.48l-2.32-1.15A3.5 3.5 0 0 0 8.56 10H.5a.5.5 0 0 1 0-1h8.06c.7 0 1.38.16 2 .48l2.32 1.15a3.5 3.5 0 0 0 1.56.37H20V2a1 1 0 0 0-1.74-.67c.64.97.53 2.29-.32 3.14l-.35.36-3.54-3.54.35-.35a2.5 2.5 0 0 1 3.15-.32A2 2 0 0 1 21 2v9zm-5.48-9.65l2 2a1.5 1.5 0 0 0-2-2zm-10.23 17A3 3 0 0 0 7.97 20h9.06a3 3 0 0 0 2.68-1.66L21.88 14h-7.94a5 5 0 0 1-2.23-.53L9.4 12.32A3 3 0 0 0 8.06 12H2.12l3.17 6.34z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">3</span> Bathrooms</p>
+                                </div>
+                            </div>
+                            <div class="px-4 pt-3 pb-4 border-t border-gray-300 bg-gray-100">
+                                <div class="text-xs uppercase font-bold text-gray-600 tracking-wide">Realtor</div>
+                                <div class="flex items-center pt-2">
+                                    <div class="bg-cover bg-center w-10 h-10 rounded-full mr-3" style="background-image: url(./assets/images/images\ \(14\).jpg)">
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-gray-900">Muskhan Sharma</p>
+                                        <p class="text-sm text-gray-700">(515) 155-4321</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class=" items-center justify-center ">
+                    <div class=" py-6 px-3">
+                        <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+                            <div class="bg-cover bg-center h-56 p-4" style="background-image: url(./assets/images/about-banner-2.jpg)">
+                                <div class="flex justify-end">
+                                    <svg class="h-6 w-6 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12.76 3.76a6 6 0 0 1 8.48 8.48l-8.53 8.54a1 1 0 0 1-1.42 0l-8.53-8.54a6 6 0 0 1 8.48-8.48l.76.75.76-.75zm7.07 7.07a4 4 0 1 0-5.66-5.66l-1.46 1.47a1 1 0 0 1-1.42 0L9.83 5.17a4 4 0 1 0-5.66 5.66L12 18.66l7.83-7.83z"></path>
+                        </svg>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <p class="uppercase tracking-wide text-sm font-bold text-gray-700">Detached house • 2y old</p>
+                                <p class="text-3xl text-gray-900">$150,000</p>
+                                <p class="text-gray-700">712 Evergreen Terrace</p>
+                            </div>
+                            <div class="flex p-4 border-t border-gray-300 text-gray-700">
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M0 16L3 5V1a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4l3 11v5a1 1 0 0 1-1 1v2h-1v-2H2v2H1v-2a1 1 0 0 1-1-1v-5zM19 5h1V1H4v4h1V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1h2V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1zm0 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V6h-2v2a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6H3.76L1.04 16h21.92L20.24 6H19zM1 17v4h22v-4H1zM6 4v4h4V4H6zm8 0v4h4V4h-4z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">2</span> Bedrooms</p>
+                                </div>
+                                <div class="flex-1 inline-flex items-center">
+                                    <svg class="h-6 w-6 text-gray-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M17.03 21H7.97a4 4 0 0 1-1.3-.22l-1.22 2.44-.9-.44 1.22-2.44a4 4 0 0 1-1.38-1.55L.5 11h7.56a4 4 0 0 1 1.78.42l2.32 1.16a4 4 0 0 0 1.78.42h9.56l-2.9 5.79a4 4 0 0 1-1.37 1.55l1.22 2.44-.9.44-1.22-2.44a4 4 0 0 1-1.3.22zM21 11h2.5a.5.5 0 1 1 0 1h-9.06a4.5 4.5 0 0 1-2-.48l-2.32-1.15A3.5 3.5 0 0 0 8.56 10H.5a.5.5 0 0 1 0-1h8.06c.7 0 1.38.16 2 .48l2.32 1.15a3.5 3.5 0 0 0 1.56.37H20V2a1 1 0 0 0-1.74-.67c.64.97.53 2.29-.32 3.14l-.35.36-3.54-3.54.35-.35a2.5 2.5 0 0 1 3.15-.32A2 2 0 0 1 21 2v9zm-5.48-9.65l2 2a1.5 1.5 0 0 0-2-2zm-10.23 17A3 3 0 0 0 7.97 20h9.06a3 3 0 0 0 2.68-1.66L21.88 14h-7.94a5 5 0 0 1-2.23-.53L9.4 12.32A3 3 0 0 0 8.06 12H2.12l3.17 6.34z"></path>
+                        </svg>
+                                    <p><span class="text-gray-900 font-bold">6</span> Bathrooms</p>
+                                </div>
+                            </div>
+                            <div class="px-4 pt-3 pb-4 border-t border-gray-300 bg-gray-100">
+                                <div class="text-xs uppercase font-bold text-gray-600 tracking-wide">Realtor</div>
+                                <div class="flex items-center pt-2">
+                                    <div class="bg-cover bg-center w-10 h-10 rounded-full mr-3" style="background-image: url(https://images.unsplash.com/photo-1500522144261-ea64433bbe27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80)">
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-gray-900">Tiffany Heffner</p>
+                                        <p class="text-sm text-gray-700">(565) 255-4321</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="cta">
+        <div class="container">
+
+            <div class="cta-card">
+                <div class="card-content">
+                    <h2 class="h2 card-title">Looking for a dream home?</h2>
+
+                    <p class="card-text">We can help you realize your dream of a new home</p>
+                </div>
+
+                <button class="btn cta-btn">
+      <span>Explore Properties</span>
+
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </button>
+            </div>
+
+        </div>
+    </section>
+
+    </article>
+    </main>
+
+
+
+
+
+    <!-- 
+- #FOOTER
+-->
+
+
+    <footer class="footer">
+
+        <div class="footer-top">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo-light.png" alt="Homeverse logo">
+                    </a>
+
+                    <p class="section-text">
+
+                        Real estate, an integral part of the global economy, encompasses a vast and diverse industry that involves the buying, selling, and leasing of properties.
+                    </p>
+
+                    <ul class="contact-list">
+
+                        <li>
+                            <a href="#" class="contact-link">
+                                <ion-icon name="location-outline"></ion-icon>
+
+                                <address>New Delhi , Dlf cyberhub Gurgaon</address>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="tel:+0123456789" class="contact-link">
+                                <ion-icon name="call-outline"></ion-icon>
+
+                                <span>+923-7567891</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="mailto:contact@homeverse.com" class="contact-link">
+                                <ion-icon name="mail-outline"></ion-icon>
+
+                                <span>contact@vijay.com</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-youtube"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-link-box">
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-list-title">Company</p>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Blog</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">All Products</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Locations Map</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">FAQ</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Contact us</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-list-title">Services</p>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Order tracking</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Wish List</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Login</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">My account</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Terms & Conditions</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Promotional Offers</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-list-title">Customer Care</p>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Login</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">My account</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Wish List</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Order tracking</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">FAQ</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Contact us</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    &copy; 2023 <a href="#">Vijay Thakur</a>. All Rights Reserved
+                </p>
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+</body>
+
+</html>
